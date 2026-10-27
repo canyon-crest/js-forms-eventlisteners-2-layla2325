@@ -14,6 +14,9 @@
 // ============================================
 // When the user types text and clicks "Shout",
 // display the text in ALL CAPS with "!" at the end.
+document.getElementById('btnShout').addEventListener('click', function(){
+    outShout.innerHTML = shoutInput.value.toUpperCase();
+})
 
 // STEP 1: Get the "Shout" button by its ID ("btnShout")
 //         using document.getElementById()
