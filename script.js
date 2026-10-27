@@ -93,7 +93,7 @@ else if (serviceValue === "delivery"){
         serviceFee = 3.00;
 }
 //   d) Calculate total: size + toppings + service fee
-var total = sizePrice + toppingsPrice + serviceFee;
+var total = sizePrice + toppingPrice + serviceFee;
 //   e) Get the customer name from the input with ID "myInput"
 var customerName = document.getElementById("myInput").value;
 //   f) Display the result in the element with ID "myPara":
